@@ -282,59 +282,6 @@ This enables businesses to move from **reactive reporting to proactive decision-
                          │ Business Insights   │
                          │ & Recommendations   │
                          └─────────────────────┘
-```
-
----
-
-# 🛠️ Technology Stack
-
-## Frontend
-
-| Technology | Purpose |
-|---|---|
-| **React.js** | Web application interface |
-| **TypeScript** | Type-safe frontend development |
-| **Tailwind CSS** | UI styling and responsive design |
-| **Recharts** | Data visualization |
-| **React Query** | API state and data management |
-
----
-
-## Backend
-
-| Technology | Purpose |
-|---|---|
-| **Node.js** | Backend runtime |
-| **Express.js** | REST API framework |
-| **TypeScript** | Type-safe backend development |
-| **JWT** | Authentication |
-| **REST API** | Frontend-backend communication |
-
----
-
-## Data & Analytics
-
-| Technology | Purpose |
-|---|---|
-| **Python** | Data processing and analytics |
-| **Pandas** | Data manipulation |
-| **NumPy** | Numerical computation |
-| **Scikit-learn** | Machine learning |
-| **PostgreSQL** | Business data storage |
-| **SQL** | Data querying and analysis |
-
----
-
-## AI Layer
-
-| Technology | Purpose |
-|---|---|
-| **LLM API** | Natural-language business insights |
-| **Prompt Engineering** | Business-context analysis |
-| **Machine Learning** | Predictive analytics |
-| **NLP** | Natural-language data queries |
-
-The AI layer converts analytical results into **human-readable explanations and recommendations**.
 
 ---
 
@@ -401,57 +348,6 @@ CSV / Excel / API / Database
               ▼
         Dashboard
 ```
-
----
-
-# 📁 Project Structure
-
-```text
-Insight-Flow/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── charts/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   └── utils/
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   └── utils/
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── analytics/
-│   ├── preprocessing/
-│   ├── forecasting/
-│   ├── anomaly_detection/
-│   ├── models/
-│   └── notebooks/
-│
-├── database/
-│   ├── migrations/
-│   └── seed/
-│
-├── docs/
-│
-├── docker-compose.yml
-├── .env.example
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
 
 # 🔐 Security
 
